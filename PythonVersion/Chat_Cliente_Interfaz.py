@@ -74,20 +74,14 @@ class Cliente:
                 break
     
     def salir_chat(self):
-        try:
-            self.cliente_socket.send("SALIR".encode('utf-8'))
-            self.cliente_socket.close()
-        except:
-            pass
+        self.cliente_socket.send("SALIR".encode('utf-8'))
+        self.cliente_socket.close()
         self.gui.quit()
     
     def run(self):
-        print("Ejecutando interfaz")
         self.gui.mainloop()
 
 #Ejecución del cliente
 if __name__ == "__main__":
     cliente = Cliente()
     cliente.run()
-
-

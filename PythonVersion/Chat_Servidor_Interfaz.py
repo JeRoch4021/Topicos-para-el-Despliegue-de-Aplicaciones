@@ -80,12 +80,11 @@ class Server:
 
         for i in range(self.cliente_listbox.size()):
             if self.cliente_listbox.get(i) == str(cliente_address):
+                self.texto_display.config(state=tk.NORMAL)
+                self.texto_display.insert(tk.END, f"{cliente_address} se ha desconectado.\n")
+                self.texto_display.config(state=tk.DISABLED)
                 self.cliente_listbox.delete(i)
                 break
-
-        self.texto_display.config(state=tk.NORMAL)
-        self.texto_display.insert(tk.END, f"{cliente_address} se ha desconectado.\n")
-        self.texto_display.config(state=tk.DISABLED)
 
     def run(self):
         self.gui.mainloop()
