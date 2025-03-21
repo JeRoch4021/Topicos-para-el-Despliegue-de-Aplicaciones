@@ -32,7 +32,10 @@ python3 Chat_Cliente_Interfaz.py #(esto en el caso de usar Mac, de lo contrario 
 <img width="403" alt="Image" src="https://github.com/user-attachments/assets/fc28571d-1964-46f2-9cad-b360a87edd5e" />
 
 
+
+
 <img width="280" alt="Image" src="https://github.com/user-attachments/assets/ffebd02e-449e-4f02-b967-52bb1144379a" />
+
 
 
 Y esto seria todo, ya se podria enviar mensajes y conectar a varios clientes (recordando que solo tiene un limite de 5 clientes conectados simultáneamente).
