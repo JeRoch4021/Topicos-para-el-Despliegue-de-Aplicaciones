@@ -9,6 +9,7 @@
 ```
 cd PythonVersion/
 ```
-Y de esta forma llegamos al directorio de PythonVersion/.
-<img width="384" alt="Image" src="https://github.com/user-attachments/assets/8d438611-ee57-40a8-ba59-c1cb1a2232f7" />
+  Y de esta forma llegamos al directorio de PythonVersion/.
+
+  <img width="384" alt="Image" src="https://github.com/user-attachments/assets/8d438611-ee57-40a8-ba59-c1cb1a2232f7" />
 
