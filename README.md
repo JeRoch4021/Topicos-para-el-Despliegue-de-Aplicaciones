@@ -7,8 +7,8 @@
 
 2. En seguida lo llevará al directoria de donde se esta ejecutando, sin embargo los codigo de python no esta guardados es este directorio, por lo que tendremos que navegar usando:
 ```
-cd nombre-directorio
+cd PythonVersion/
 ```
-Y de esta forma llegamos al directorio de PythonVersion/
+Y de esta forma llegamos al directorio de PythonVersion/.
 <img width="384" alt="Image" src="https://github.com/user-attachments/assets/8d438611-ee57-40a8-ba59-c1cb1a2232f7" />
 
